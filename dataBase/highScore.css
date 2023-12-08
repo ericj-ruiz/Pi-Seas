@@ -1,0 +1,82 @@
+h1
+{
+ color: #FFFCB4;
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: bold;
+ font-style: italic;
+ text-decoration: underline;
+ font-size: 50px;
+}
+h2
+{
+ font-size: 30px;
+ color: #5F9EA0
+ 
+}
+h1, h2 
+{
+ text-align: center;
+}
+
+body
+{
+ color: green;
+ background-color: black;
+}
+
+#img
+{ 
+  border: .7em dashed DodgerBlue;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  animation: myfirst 5s linear 2s infinite alternate;
+  width: 350px;
+  height: auto;
+}
+@keyframes myfirst {
+  0%   {background-color:black; left:0px; top:0px;}
+  25%  {background-color:white; left:100px; top:0px;}
+  50%  {background-color:green; left:100px; top:100px;}
+  75%  {background-color:red; left:0px; top:100px;}
+  100% {background-color:MediumSeaGreen; left:0px; top:0px;}
+}
+
+caption
+{
+  font-weight:bold;
+  font-size: 40px;
+  text-decoration: underline;
+  color: #00FFFF;
+}
+
+.table-container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.centered-table
+{
+  margin: 0 auto;
+  border-spacing: 10px;
+
+}
+.centered-table th
+{
+  text-decoration: underline;
+  font-size: 30px;
+  color: red;
+}
+.centered-table td
+{
+ font-size: 25px;
+}
+.centered-table th,
+.centered-table td 
+{
+    padding: 0 10px;
+}
+
